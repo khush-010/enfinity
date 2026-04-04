@@ -153,6 +153,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ---
 
-## 🏆 Team Enfinity
+## 🏆 Team normies
 
-Built with 🚀 during a 24-hour hackathon to push the limits of real-time semantic segmentation.
+Built with during a 24-hour hackathon to push the limits of real-time semantic segmentation.
