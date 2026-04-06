@@ -69,7 +69,7 @@ const About = () => {
 
         {/* Footer */}
         <footer className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          Built for a hackathon — TerraSeg © {new Date().getFullYear()}
+          Built for a hackathon — SegAI © {new Date().getFullYear()}
         </footer>
       </div>
     </div>

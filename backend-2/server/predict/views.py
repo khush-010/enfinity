@@ -30,6 +30,8 @@ with open(model_path, "rb") as f:
 model = model.to(device)
 model.eval()
 
+print("Model loaded successfully")
+
 transform = A.Compose([
     A.Resize(512, 512),
     A.Normalize(

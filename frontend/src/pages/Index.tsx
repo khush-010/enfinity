@@ -65,7 +65,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="border-t border-border py-8">
         <div className="container text-center text-sm text-muted-foreground">
-          Built for a hackathon — TerraSeg © {new Date().getFullYear()}
+          Built for a hackathon — SegAI © {new Date().getFullYear()}
         </div>
       </footer>
     </div>

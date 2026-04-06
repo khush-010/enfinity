@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-2 font-display font-bold text-lg">
           <Scan className="w-5 h-5 text-primary" />
-          <span className="text-gradient">TerraSeg</span>
+          <span className="text-gradient">SegAI</span>
         </Link>
 
         {/* Desktop */}

@@ -79,11 +79,13 @@ The system is modular and scalable, consisting of three layers:
 
 ## 🚀 Installation & Setup
 
-### 🔹 Backend (FastAPI)
+### 🔹 Backend (Django)
 
 ```bash
-cd backend
+cd backend-2
 pip install -r requirements.txt
+cd server
+python manage.py runserver
 ```
 
 ---
