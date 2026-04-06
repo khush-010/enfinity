@@ -1,6 +1,6 @@
 # 🏜️ Enfinity: Desert Environment Semantic Segmentation
 
-[![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat\&logo=fastapi\&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Django](https://img.shields.io/badge/Backend-Django-092E20?style=flat\&logo=django\&logoColor=white)](https://www.djangoproject.com/)
 [![Next.js](https://img.shields.io/badge/Frontend-Next.js-000000?style=flat\&logo=nextdotjs\&logoColor=white)](https://nextjs.org/)
 [![PyTorch](https://img.shields.io/badge/ML-PyTorch-EE4C2C?style=flat\&logo=pytorch\&logoColor=white)](https://pytorch.org/)
 
@@ -25,7 +25,7 @@ The system is modular and scalable, consisting of three layers:
 
 ### ⚙️ Backend (API)
 
-* Framework: **FastAPI**
+* Framework: **DJANGO**
 * Responsibilities:
 
   * Image preprocessing
@@ -47,11 +47,14 @@ The system is modular and scalable, consisting of three layers:
 
 ```text
 .
-├── backend/                  # FastAPI + PyTorch Inference
-│   ├── main.py               # API Endpoints
+├── backend-2/                # Django + PyTorch Inference
+│   ├── requirements.txt      # Python dependencies
 │   ├── model/                # DeepLabV3+ Model Definition
 │   ├── weights/              # Trained .pth weights
-│   └── requirements.txt      # Python dependencies
+│   └── server/               # Django project root
+│       ├── manage.py         # Django entrypoint
+│       ├── server/           # Settings, URLs, ASGI/WSGI
+│       └── api/              # Inference API app
 │
 └── frontend/                 # Next.js + Tailwind CSS
     ├── src/app               # Pages
