@@ -2,7 +2,7 @@ import { useState, useCallback, useRef } from "react";
 import { Upload, Loader2, AlertCircle, RotateCcw } from "lucide-react";
 import ImageComparison from "@/components/ImageComparison";
 
-const API_URL = "http://localhost:8000/predict";
+const API_URL = "http://localhost:8000/predict/";
 
 const Predict = () => {
   const [file, setFile] = useState<File | null>(null);
